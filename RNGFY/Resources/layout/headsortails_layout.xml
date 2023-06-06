@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <TextView
+        android:text="Heads or Tails"
+        android:textSize="140px"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80px"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="Press the flip button to start"
+        android:textSize="80px"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_margin="80px"
+        android:padding="10dp"
+        android:background="@drawable/coin_background"
+        android:id="@+id/theOutcome" />
+
+    <android.widget.Button
+        android:text="Flip"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/CustomButton"
+        android:id="@+id/flipButton" />
+
+</LinearLayout>

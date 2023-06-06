@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:text="RNG-fy"
+            android:textSize="150px"
+            android:textFontWeight="900"
+            android:gravity="center"
+            android:layout_margin="80px"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="431.6dp"
+            android:gravity="center"
+            android:id="@+id/linearLayout2">
+
+            <Button
+                android:text="Dice"
+                android:textSize="60px"
+                android:layout_width="900px"
+                android:layout_height="300px"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20px"
+                android:id="@+id/buttonDice" />
+
+            <Button
+                android:text="Heads or Tails"
+                android:textSize="60px"
+                android:layout_width="900px"
+                android:layout_height="300px"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20px"
+                android:id="@+id/buttonHT" />
+
+            <Button
+                android:text="Random Number"
+                android:textSize="60px"
+                android:layout_width="900px"
+                android:layout_height="300px"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20px"
+                android:id="@+id/buttonRN" />
+
+        </LinearLayout>
+
+
+        
+
+    </LinearLayout>
+
+</RelativeLayout>

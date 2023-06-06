@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPrimaryDark">
+
+    <TextView
+        android:text="Random Number Generator"
+        android:textSize="120px"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80px"
+        android:id="@+id/textView1" />
+
+    <TextView
+        android:text="Input a range of numbers:"
+        android:textSize="80px"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout1" >
+
+        <EditText
+            android:inputType="number"
+            android:hint="From"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:layout_margin="80px"
+            android:id="@+id/inputNum1" />
+
+        <EditText
+            android:inputType="number"
+            android:hint="To"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:layout_margin="80px"
+            android:id="@+id/inputNum2" />
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:text="Generate"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80px"
+        style="@style/CustomButton"
+        android:id="@+id/genButton" />
+
+    <TextView
+        android:text="Press the Generate button after inputting numbers"
+        android:textSize="80px"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/generatedNumber" />
+
+</LinearLayout>
